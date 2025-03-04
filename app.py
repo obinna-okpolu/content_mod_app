@@ -164,4 +164,44 @@ if st.button("Detect"):
     else:
         st.warning("Please enter some text.")
 
-st.sidebar.header("About the Models") # Add a sidebar
+# Model Information
+st.sidebar.header("About the Models")
+# Add sidebar content
+st.sidebar.header("About This App")
+
+# App Description
+st.sidebar.markdown("""
+This app uses machine learning models to detect **spam** and **toxic text** in user inputs. It is designed to help identify unwanted or harmful content in real-time.
+
+- **Spam Detection**: Classifies text as spam or not spam.
+- **Toxic Text Detection**: Identifies offensive or toxic language in text.
+""")
+
+# Model Information
+st.sidebar.subheader("Models Used")
+st.sidebar.markdown("""
+- **Spam Detection**: Trained on the [Tiago et. al SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) using a Multinomial Naive Bayes classifier.
+- **Toxic Text Detection**: Trained on the [Davidson et. al Hate Speech and Offensive Language](https://github.com/t-davidson/hate-speech-and-offensive-language) using a Logistic Regression model.
+""")
+
+# How It Works
+st.sidebar.subheader("How It Works")
+st.sidebar.markdown("""
+1. Enter text in the input box.
+2. Select the task: Spam Detection or Toxic Text Detection.
+3. Click **Detect** to see the prediction and probability score.
+""")
+
+# Contact Information
+st.sidebar.subheader("Contact")
+st.sidebar.markdown("""
+If you have any questions or feedback, feel free to reach out:
+- Email: obinnaokpolu@gmail.com
+- GitHub: [Your GitHub Profile](https://github.com/obinna-okpolu)
+""")
+
+# Additional Notes
+st.sidebar.subheader("Disclaimer")
+st.sidebar.markdown("""
+This app is for educational purposes only. The predictions are based on statistical models and may not always be 100% accurate.
+""")
