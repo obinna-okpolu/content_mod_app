@@ -10,7 +10,8 @@ import pickle
 import nltk
 import sqlite3
 nltk.download('punkt_tab')
-nltk.download('')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 from datetime import datetime
 
