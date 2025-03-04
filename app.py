@@ -197,7 +197,7 @@ st.sidebar.subheader("Contact")
 st.sidebar.markdown("""
 If you have any questions or feedback, feel free to reach out:
 - Email: obinnaokpolu@gmail.com
-- GitHub: [Your GitHub Profile](https://github.com/obinna-okpolu)
+- GitHub: [My GitHub Profile](https://github.com/obinna-okpolu)
 """)
 
 # Additional Notes
